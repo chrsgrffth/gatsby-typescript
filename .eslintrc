@@ -1,0 +1,18 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "ecmaVersion": 6
+  },
+  "rules": {
+    "comma-dangle": ["error", "always-multiline"],
+    "eol-last": ["error", "always"],
+    "no-console": ["error", { "allow": ["error", "log", "time", "timeEnd"] }],
+    "object-curly-spacing": ["error", "always"],
+    "quotes": ["error", "single", { "allowTemplateLiterals": true }],
+    "semi": ["error", "always"],
+    "space-before-function-paren": ["error", "always"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true,
+    "**/public": true,
+    "**/.cache": true,
+  },
+  "stylelint.enable": true,
+  "eslint.autoFixOnSave": true,
+  "tslint.autoFixOnSave": true,
+}

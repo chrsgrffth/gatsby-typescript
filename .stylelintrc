@@ -1,0 +1,6 @@
+{
+  "stylelint": {
+    "extends": "stylelint-config-recommended",
+    "rules": {}
+  }
+}
