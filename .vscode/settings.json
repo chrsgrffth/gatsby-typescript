@@ -12,4 +12,5 @@
   "stylelint.enable": true,
   "eslint.autoFixOnSave": true,
   "tslint.autoFixOnSave": true,
+  "javascript.validate.enable": false
 }

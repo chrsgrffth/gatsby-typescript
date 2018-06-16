@@ -1,6 +1,7 @@
 import * as React from 'react';
 import Helmet from 'react-helmet';
 import { Header } from '../components/header';
+import '../css/main.css';
 
 interface Props {
   children: any; // tslint:disable-line no-any
@@ -8,7 +9,7 @@ interface Props {
 
 const DefaultLayout = (props: Props) => {
   return (
-    <div>
+    <div className="bg-grey-lightest h-screen">
       <Helmet
         title="Gatsby TypeScript Starter"
         meta={[
@@ -17,7 +18,7 @@ const DefaultLayout = (props: Props) => {
         ]}
       />
       <Header />
-      <div>{props.children()}</div>
+      <div className="p-8">{props.children()}</div>
     </div>
   );
 };
